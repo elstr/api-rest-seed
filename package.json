@@ -1,0 +1,36 @@
+{
+  "name": "api-rest-seed",
+  "version": "1.0.0",
+  "description": "Simple seed for rest api",
+  "main": "start.js",
+  "scripts": {
+    "prod": "node ./start.js",
+    "start": "nodemon ./start.js --ignore public/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elstr/api-rest-seed.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "node",
+    "express",
+    "seed",
+    "boilerplate"
+  ],
+  "author": "Lele Lester",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elstr/api-rest-seed/issues"
+  },
+  "homepage": "https://github.com/elstr/api-rest-seed#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "faker": "^4.1.0",
+    "node": "^11.4.0"
+  }
+}
